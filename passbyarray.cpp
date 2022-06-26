@@ -14,7 +14,7 @@ int main()
  
  int size =5;
  int *p= arr(size);
- for(int i;i<size;i++)
+ for(int i=0;i<size;i++)
  {
     cout<<*(p+i )  <<" "<<endl;
  }
